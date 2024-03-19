@@ -24,13 +24,11 @@ public class Main {
 //        }
 //        if (isWarsaw) {
 //            ticket_price = ticket_price - (ticket_price * 0.1);
-//
-//
 //        }
 //        if (isThursday) {
 //            ticket_price = 0;
 //
-//        }
+//
         double discount =Getdiscount(age2, isWarsaw, isThursday);
         if (discount==1.0){
             ticket_price=0;
